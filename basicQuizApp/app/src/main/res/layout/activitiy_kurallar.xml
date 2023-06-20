@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="405dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="125dp"
+        android:text="Bilgi yarışması oyunumuz farklı  kategoriler içermektedir. Her bir kategori kendi alanıyla ilgili 5 soru içermektedir.
+Hazırsan kategori seçip yarışmaya başlamak için Kategorileri Gör butonuna basabilirsin başarılar"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="75dp"
+        android:background="@drawable/btn_design"
+        android:gravity="center"
+        android:text="Kategörileri gör"
+        android:textColor="@color/logoYaziRengi"
+        android:textSize="@dimen/yaziBoyut"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
